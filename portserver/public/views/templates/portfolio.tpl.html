@@ -1,0 +1,10 @@
+<div class="col-md-9 portfolioWrapper fade-in">
+    <ul id="projectList">
+        <li ng-repeat="item in port">
+            <div class="projectWrapper" ng-style="{'background-image':'url(' + item.imgUrl + ')'}">
+                <p class="projectTitle">{{item.clientName}}</p>
+            </div>
+            <p class="projectDesc">{{item.description}}</p>
+        </li>
+    </ul>
+</div>
