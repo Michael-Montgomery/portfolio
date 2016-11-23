@@ -4,7 +4,7 @@ app.service('blogDB', function() {
     this.blogList = [
         {
             date: new Date(2016, 03, 29),
-            title: 'Jacked up on JavaScript!',
+            title: 'This is a modified test title!',
             post: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum egestas est turpis, at commodo " +
             "est blandit eu. Nam dolor enim, fringilla sed sodales ut, molestie nec felis. Aliquam sed metus ullamcorper," +
             " gravida orci in, tempus orci. Ut elementum nibh et porta eleifend. Quisque a ipsum accumsan, maximus nisl" +
